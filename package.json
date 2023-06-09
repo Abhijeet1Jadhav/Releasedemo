@@ -3,7 +3,7 @@
   "description": "semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues",
   "version": "0.0.0-development",
   "type": "module",
-  "author": "Abhijeet"
+  "author": "Abhijeet",
   "devDependencies": {
     "semantic-release": "^21.0.3"
   },
