@@ -3,5 +3,5 @@
     "semantic-release": "^21.0.3"
   },
   "release": {
-    "branches": {"master"}
+    "branches": {"master"},
 }
