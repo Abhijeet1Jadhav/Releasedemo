@@ -10,7 +10,13 @@
   "release": {
     "branches": ["master", "dev"]
   },
-  "publishConfig": { "abhijeetaj:registry": "https://registry.npmjs.org" },
+    "publishConfig": 
+  {
+  "registry": ["https://registry.npmjs.org/"],
+  "tag": "latest",
+  "access": "public",
+  "provenance": true
+  }
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
