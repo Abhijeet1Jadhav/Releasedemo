@@ -10,6 +10,13 @@
   "release": {
     "branches": ["master", "dev"]
   },
+  "publishConfig": 
+  {
+  "registry": ["https://registry.npmjs.org/", "https://registry.npmjs.org/@semantic-release%2fgithub"],
+  "tag": "latest",
+  "access": "public",
+  "provenance": true
+  }
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
