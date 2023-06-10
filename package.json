@@ -12,7 +12,7 @@
   },
   "publishConfig": 
   {
-  "registry": ["https://registry.npmjs.org/", "https://registry.npmjs.org/@semantic-release%2fgithub"],
+  "registry": ["https://registry.npmjs.org/"]
   "tag": "latest",
   "access": "public",
   "provenance": true
