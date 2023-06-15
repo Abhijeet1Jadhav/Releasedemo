@@ -23,7 +23,7 @@ jobs:
       - run: npm config set registry https://registry.npmjs.org
       - run: npm install -g npm
       - run: npm ci
-      - run: npx semantic-release
+      - run: npx release-it
         env:
           GH_TOKEN: ${{ secrets.RELASE_GIT_TOKEN }}
           NPM_TOKEN: ${{ secrets.RELEASE_NPM_TOKEN }}
