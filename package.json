@@ -17,6 +17,9 @@
   "access": "public",
   "provenance": true
   },
+  "npm": {
+    "skipChecks": "true"
+  },
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
